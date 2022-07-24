@@ -6,3 +6,5 @@ This application allows the user to enter notes and save them where they will ap
 # Appplication Link:
 
 # Screenshot
+<img src="./develop/public/assets/mainpage.png">
+<img src="./develop/public/assets/notepage.png">

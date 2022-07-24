@@ -32,7 +32,7 @@ app.get('*', (req, res) => {
 });
 
 app.post('/api/notes', (req, res) => {
-    fs.readFile('/db/db.json' , function (error, data) {
+    fs.readFile('./db/db.json' , function (error, data) {
         console.log(error)
     var notes = JSON.parse(data)
     var newnote = req.body
@@ -46,7 +46,7 @@ app.post('/api/notes', (req, res) => {
 })
 
 app.delete('/api/notes/:id', (req, res) => {
-    fs.readFile('.db/db.json', function (error, data) {
+    fs.readFile('./db/db.json', function (error, data) {
         console.log(error)
     var notes = JSON.parse(data)
     var updatednotes = notes.filter(function (note) {
