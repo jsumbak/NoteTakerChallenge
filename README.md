@@ -3,7 +3,7 @@
 # Description
 This application allows the user to enter notes and save them where they will appear in the sidebar. Notes can be deleted by clicking the trash can next to the corresponding note.
 
-# Appplication Link: 
+# Appplication Link: https://dry-coast-38609.herokuapp.com
 
 # Screenshot
 ![mainpage](./develop/public/assets/mainpage.png) 
